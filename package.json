@@ -1,0 +1,20 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "Personal project, where goal is to create a bot that adds to a scoresystem based on number of times helped, either by command or by reaction",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrianEP-hub/discordbot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrianEP-hub/discordbot/issues"
+  },
+  "homepage": "https://github.com/BrianEP-hub/discordbot#readme"
+}
