@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/BrianEP-hub/discordbot/issues"
   },
-  "homepage": "https://github.com/BrianEP-hub/discordbot#readme"
+  "homepage": "https://github.com/BrianEP-hub/discordbot#readme",
+  "dependencies": {
+    "discord.js": "^14.7.1"
+  }
 }
