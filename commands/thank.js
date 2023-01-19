@@ -6,13 +6,13 @@ module.exports = {
 		.setDescription('Thank user')
 		.addUserOption(option =>
 			option
-				.setName('target')
+				.setName('user')
 				.setDescription('Give user credit for their help'),
 		),
 	async execute(interaction) {
-		const member = interaction.options.getMember('target');
+		const member = interaction.options.getMember('user');
 		return interaction.reply(
-			`${interaction.user.username} gave ${member.user.username}, a point for their help`,
+			`<@${interaction.user.id}> gave <@${member.user.id}>, a point for their help`,
 		);
 	},
 };
