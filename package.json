@@ -4,7 +4,9 @@
   "description": "Personal project, where goal is to create a bot that adds to a scoresystem based on number of times helped, either by command or by reaction",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
   },
   "repository": {
     "type": "git",
