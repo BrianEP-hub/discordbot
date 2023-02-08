@@ -12,7 +12,7 @@ module.exports = {
 	async execute(interaction) {
         const project = interaction.options.getString('project')
 		return interaction.reply(
-            `<@${interaction.user.id}> is looking for feedback on his ${project}`
+            `<@${interaction.user.id}> is looking for feedback on their ${project}`
             );
 	},
 };
