@@ -1,5 +1,5 @@
 const { REST, Routes } = require('discord.js');
-const { clientId, guildId, token } = require('./config.json');
+const { clientId, token } = require('./config.json');
 const fs = require('node:fs');
 
 const commands = [];
@@ -28,7 +28,8 @@ const rest = new REST({ version: '10' }).setToken(token);
 		console.log(
 			`Successfully reloaded ${data.length} application (/) commands.`,
 		);
-	} catch (error) {
+	}
+	catch (error) {
 		console.error(error);
 	}
 })();

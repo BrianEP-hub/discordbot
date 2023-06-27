@@ -5,8 +5,6 @@ module.exports = {
 		.setName('project')
 		.setDescription('Looking for project partner'),
 	async execute(interaction) {
-		return interaction.reply(
-            `<@${interaction.user.id}> is looking for a project partner!`
-            );
+		return interaction.reply(`<@${interaction.user.id}> is looking for a project partner!`);
 	},
 };
